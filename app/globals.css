@@ -1,0 +1,76 @@
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+
+  background: linear-gradient(180deg, #ffffff 0%, #7dd3fc 40%, #0ea5e9 100%);
+  background-attachment: fixed;
+  color: #0c4a6e;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px) saturate(160%);
+
+
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 3px solid rgba(255, 255, 255, 0.9);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+
+  border-radius: 40px;
+  box-shadow:
+    0 25px 50px -12px rgba(0, 163, 255, 0.25),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+
+  animation: float 6s ease-in-out infinite;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #4ade80, #bef264, #4ade80);
+  background-size: 200% 100%;
+  animation: flowAnimation 2s linear infinite;
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
+}
+
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-15px) rotate(0.5deg);
+  }
+}
+
+@keyframes flowAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+button {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ffffff 0%, #e0f2fe 100%);
+  color: #0ea5e9;
+  border: 2px solid #ffffff;
+  font-weight: 800;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), inset 0 -2px 5px rgba(0, 163, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 163, 255, 0.3);
+}

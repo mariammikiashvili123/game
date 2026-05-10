@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "What kind of world do you want to be in?",
+    "answers": [
+      { "text": "Wild West 🤠", "tags": ["cowboy", "open-world"] },
+      { "text": "Zombie apocalypse 🧟", "tags": ["hard", "survival"] },
+      { "text": "Fantasy world 🐉", "tags": ["fantasy", "rpg","dark"] },
+      { "text": "Modern / realistic 🌆", "tags": ["action", "story"] }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How do you like to play?",
+    "answers": [
+      { "text": "Alone (story mode)", "tags": ["singleplayer", "story"] },
+      { "text": "With friends 🧑‍🤝‍🧑", "tags": ["multiplayer", "co-op"] },
+      { "text": "Against other players 🔥", "tags": ["multiplayer", "competitive"] },
+      { "text": "Doesn’t matter", "tags": ["fun"] }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What pace do you enjoy?",
+    "answers": [
+      { "text": "Fast and intense ⚡", "tags": ["fast", "action","competitive"] },
+      { "text": "Slow and relaxing 🌿", "tags": ["relaxing", "casual"] },
+      { "text": "Balanced ⚖️", "tags": ["adventure", "casual"] },
+      { "text": "Challenging 😈", "tags": ["hard","survival","action"] }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What sounds most fun?",
+    "answers": [
+      { "text": "Shooting and combat 🔫", "tags": ["shooter", "action","competitive"] },
+      { "text": "Exploring and discovering 🌍", "tags": ["exploration", "open-world"] },
+      { "text": "Building and creating 🧱", "tags": ["sandbox", "creative"] },
+      { "text": "Solving puzzles 🧠", "tags": ["puzzle", "strategy"] }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What vibe do you prefer?",
+    "answers": [
+      { "text": "Dark and serious 🌑", "tags": ["dark", "story"] },
+      { "text": "Fun and chaotic 😂", "tags": ["fun", "multiplayer"] },
+      { "text": "Emotional 💔", "tags": ["story","adventure"] },
+      { "text": "Chill 😌", "tags": ["relaxing","fun"] }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Do you like horror elements?",
+    "answers": [
+      { "text": "Yes, I love it 😱", "tags": ["horror"]  },
+      { "text": "A little bit 👀", "tags": ["hard"] },
+      { "text": "No thanks 🙅", "tags": ["casual","fun"] }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What kind of challenge do you want?",
+    "answers": [
+      { "text": "Very hard 😈", "tags": ["hard","survival","action"] },
+      { "text": "Medium ⚖️", "tags": ["adventure", "casual"] },
+      { "text": "Easy and fun 😊", "tags": ["casual", "fun","relaxing"] }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which setting sounds coolest?",
+    "answers": [
+      { "text": "Space 🚀", "tags": ["space", "exploration"] },
+      { "text": "Underwater 🌊", "tags": ["survival", "exploration"] },
+      { "text": "City / urban 🌆", "tags": ["modern", "action"] },
+      { "text": "Nature / wild 🌲", "tags": ["survival", "open-world"] }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What matters most to you?",
+    "answers": [
+      { "text": "Story 📖", "tags": ["story"] },
+      { "text": "Gameplay 🎮", "tags": ["action"] },
+      { "text": "Creativity 🎨", "tags": ["creative", "sandbox"] },
+      { "text": "Competition 🏆", "tags": ["competitive", "multiplayer"] }
+    ]
+  }
+]
